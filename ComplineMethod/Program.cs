@@ -71,7 +71,7 @@ internal class Project
 
         await Task.Delay(100);
         Compiled = true;
-        Console.WriteLine($"{this.ToString()} compiled");
+        Console.WriteLine($"{this} compiled");
     }
 
     public override string ToString()
